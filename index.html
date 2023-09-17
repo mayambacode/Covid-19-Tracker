@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        name,date,description
+        Author: Mayamba Boka-Mbambu
+        Created:Feb 10, 2022
+        Updated:
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Canada</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/main.css">
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+<script src="https:www.songho.ca/js/Logger.js"></script> <!-- Check if correct Mayamba-->
+
+</head>
+<body>
+    
+   <h1>COVID-19 Canada</h1>
+
+    <!-- main flex layout -->
+    <div class="mainflex">
+
+    <!-- main col #1 -->
+    <div class="maincol" id="maincol1">
+        Province
+    <br>
+    <select name="comboprovince">
+        <option value="">Canada</option>
+    </select>
+    <br>
+
+    <div class="date">
+        Date: <span id="date">yyyy-MM-dd</span> 
+        <a href="#" id="previous">&#8249;</a>  
+        <a href="#" id="next">&#8250;</a>
+      
+        <!-- Add buttons to go back and fourth here -->
+    </div>
+   
+    <br>
+    <!-- number flex -->
+    Confirm Cases
+    <div class="numflex">
+        <div class="numcol" id="numcol1">
+            Daily
+            <br>
+           <div id="dailynum">0</div> 
+        </div>
+        <div class="numcol" id="numcol2">
+            Total
+            <br>
+           <div id="totalnum">00</div> 
+        </div>
+    </div>
+    <!-- end of num flex -->
+
+    </div>
+    <!-- end of main col #1 -->
+
+    <!-- main col #2 -->
+    <div class="maincol" id="maincol2">
+        <canvas id="chartdaily"></canvas>
+    </div>
+    <!-- end of main col #2 -->
+
+    </div>
+    <!-- END OF MAIN FLEX -->
+    
+</body>
+</html>

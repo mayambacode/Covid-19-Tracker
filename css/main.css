@@ -1,0 +1,83 @@
+/* main.css 
+
+desc, name, date
+Description: 
+Name: Mayamba Boka-Mbambu
+Date:Feb 10, 2022
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    size: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainflex {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.maincol {
+    min-height: 280px;
+}
+
+#maincol1 {
+    flex: 1 0 300px; /* grow, shrink, basis*/
+    /* background-color: red; */
+}
+
+#date {
+    font-size: 20px;
+}
+
+#previous {
+    font-size: 30px;
+}
+
+#next {
+    font-size: 30px;
+}
+
+#maincol2 {
+    flex: 3 0 300px; /* grow, shrink, basis*/
+    overflow: hidden;
+    /* background-color: green; */
+    
+}
+
+.numflex {
+    display: flex;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.numcol {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+/* #numcol1 {
+    background-color:yellow;
+} */
+
+#dailynum{
+    color: rgb(23, 116, 192);
+}
+
+/* #numcol2 {
+    background-color:cyan;
+} */
+
+#totalnum {
+    color: rgb(199, 75, 70);
+}
+
+select {
+    font-size: 18px;
+}
